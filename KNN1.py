@@ -1,5 +1,4 @@
 #Anurag Singh
-import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.neighbors import KNeighborsClassifier
@@ -31,5 +30,6 @@ if prediction == 0:
 else:
 
     print("The predicted weather condition for the new point is: Rainy")
+
 
 
