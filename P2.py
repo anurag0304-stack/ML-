@@ -1,3 +1,4 @@
+import streamlit as st
 import pandas as pd
 import numpy as np
 import math
@@ -46,4 +47,5 @@ def id3(df, target, attributes):
 attributes = list(data.columns)
 attributes.remove('PlayTennis')
 decision_tree = id3(data, 'PlayTennis', attributes)
+
 print("Decision Tree:", decision_tree)
